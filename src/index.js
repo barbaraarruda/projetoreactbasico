@@ -18,7 +18,7 @@ class Principal extends React.Component{
 
         this.state ={
             nome : '',
-            idade: null,
+            idade: '',
             vetor : []
         }
     }
@@ -37,13 +37,18 @@ class Principal extends React.Component{
         copiaVetor.push({'nome' : this.state.nome, 'idade' : this.state.idade});
 
         this.setState({vetor : copiaVetor});
+
+        this.setState({
+            nome : '',
+            idade : ''
+        });
     }
 
     //render
     render(){
         return(
             <div>
-                <Formulario funcaoBotao ={this.aoClicar} funcaoCampo={this.aoDigitar}/>
+                <Formulario campoNome={this.state.nome} campoIdade={this.state.idade} funcaoBotao ={this.aoClicar} funcaoCampo={this.aoDigitar}/>
                 <Tabela dados={this.state.vetor}/>
             </div>
         );
