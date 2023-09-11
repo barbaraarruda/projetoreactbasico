@@ -1,3 +1,26 @@
+# Projeto React Básico
+Projeto desenvolvido para conclusão do curso de ReactJS Básico. | Project developed to complete the Basic ReactJS course. | 開發項目是為了完成基礎 ReactJS 課程。
+
+Projeto de cadastro de usuário simples, cadastrando nome e idade, para prática e aprendizado do React. Projeto de conclusão do curso: <a href="https://github.com/barbaraarruda/bootcamps/tree/main/ReactJS">ReactJS Básico</a>.
+
+## 📋 Materiais e métodos utilizados:
+1. HTML, CSS, JavaScript e React;
+2. Sistema Operacional Linux Mint Mate 21 "Victoria";
+3. Visual Studio Code.
+
+<div class="row">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40px" height="40px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40px" height="40px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40px" height="40px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40px" height="40px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="40px" height="40px" />
+
+
+<hr>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
